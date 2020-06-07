@@ -37,9 +37,9 @@ const data = [
         mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second bedroom. Padma
         and Parvati Sorting Hat Minister of Magic blue turban remember my last.`,
 
-    thirdParagraph: `Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights 
-        Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven 
-        roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot 
+    thirdParagraph: `Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights
+        Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven
+        roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
   },
   {
@@ -66,8 +66,8 @@ const data = [
         consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem ipsum dolor
         sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum`,
 
-    thirdParagraph: `Gotta catch 'em all Horsea gym Ninjask Absol Sinnoh Poliwag. Gotta catch 'em all Youngster wants to fight Soda Pop Floatzel 
-        Leech Life Seismitoad Ariados. Earthquake Pokemon Glitch City Tail Whip Skitty Ekans Dialga. Ut aliquip ex ea commodo consequat James 
+    thirdParagraph: `Gotta catch 'em all Horsea gym Ninjask Absol Sinnoh Poliwag. Gotta catch 'em all Youngster wants to fight Soda Pop Floatzel
+        Leech Life Seismitoad Ariados. Earthquake Pokemon Glitch City Tail Whip Skitty Ekans Dialga. Ut aliquip ex ea commodo consequat James
         Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
   },
   {
@@ -85,10 +85,28 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'The Meat of Software Development',
+    date: 'Jan 1st, 2020',
+    firstParagraph: `Bacon ipsum dolor amet corned beef ball tip doner kielbasa ground round meatball burgdoggen andouille short loin capicola pork short ribs chicken swine. Pork belly turkey capicola short ribs tenderloin short loin venison pork pig tri-tip ham. Ham chislic short loin, drumstick boudin shankle shank swine tenderloin tri-tip fatback biltong prosciutto jerky. Pancetta spare ribs ball tip ground round ham hock. Bacon tail prosciutto porchetta hamburger, spare ribs t-bone filet mignon sirloin ground round burgdoggen shank ham shoulder brisket. Jowl frankfurter ham hock, ground round chuck biltong tongue pork loin turkey bresaola sausage alcatra short ribs bacon beef. Tenderloin meatloaf kevin beef ribs filet mignon porchetta hamburger capicola frankfurter pancetta ribeye short loin pork brisket t-bone.`,
+
+    secondParagraph: `Boudin kielbasa bacon jowl flank. Spare ribs kielbasa chicken, ham hock pancetta sausage tenderloin pig picanha. Alcatra beef ribs shankle, tail ham hock capicola jerky. Picanha tenderloin sirloin shank t-bone chuck ribeye ball tip doner hamburger. Landjaeger chislic leberkas brisket jerky pastrami. Boudin short ribs chislic jerky.`,
+
+    thirdParagraph: `Drumstick kielbasa pastrami spare ribs strip steak kevin picanha tail venison chislic. Pork loin ground round boudin short loin hamburger. Porchetta tail filet mignon short loin, beef ground round tongue drumstick landjaeger hamburger pastrami. Bresaola landjaeger ham hock prosciutto, filet mignon ham shank beef ribs biltong pastrami short ribs capicola boudin.`
+  },
+  {
+    title: 'The Sweet Side of Web Components',
+    date: 'Mar 1st, 2020',
+    firstParagraph: `Cupcake ipsum dolor sit amet pie danish candy. Tootsie roll cheesecake chocolate caramels apple pie caramels pie sesame snaps apple pie. Brownie jelly-o tootsie roll cake gingerbread croissant ice cream bear claw apple pie. Tiramisu bonbon soufflé jujubes apple pie chupa chups candy canes. Chupa chups sweet brownie. Gingerbread ice cream donut.`,
+
+    secondParagraph: `Chocolate cake sesame snaps tart tiramisu dessert liquorice liquorice bear claw. Caramels carrot cake chocolate cake powder jujubes cake dessert sesame snaps brownie. Powder macaroon liquorice pudding. Bonbon croissant croissant sweet roll halvah icing. Chupa chups cookie apple pie candy canes gingerbread tootsie roll danish. Cookie icing cake chocolate bar dragée pudding fruitcake sesame snaps danish. Chocolate bar muffin sesame snaps. Cheesecake sweet brownie cupcake dragée soufflé.`,
+
+    thirdParagraph: `Chocolate cake chocolate cake cookie jelly. Chupa chups lemon drops pie candy gingerbread candy candy canes toffee. Gummi bears marshmallow jelly macaroon cookie topping topping. Caramels ice cream sweet lollipop. Carrot cake caramels toffee liquorice halvah cake. Jujubes cheesecake wafer chupa chups chocolate cake. Chocolate cake dessert chocolate bar bear claw candy canes dessert. Cookie jelly sweet sweet roll wafer sweet croissant gingerbread sweet. Macaroon ice cream donut. Bonbon tootsie roll liquorice jelly gummi bears wafer pie.`
   }
 ];
 
-/* Step 1: Write a component called 'articleMaker' to create an article. You want your component to return markup like the template below: 
+/* Step 1: Write a component called 'articleMaker' to create an article. You want your component to return markup like the template below:
 
   <div class="article">
     <h2>{title of the article}</h2>
@@ -111,3 +129,47 @@ const data = [
 
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 */
+
+function articleMaker(article) {
+  let articleDiv = document.createElement('div');
+  articleDiv.classList.add('article');
+
+  let articleTitle = document.createElement('h2');
+  articleTitle.textContent = article.title;
+  articleDiv.appendChild(articleTitle);
+
+  let articleDate = document.createElement('p');
+  articleDate.classList.add('date');
+  articleDate.textContent = article.date;
+  articleDiv.appendChild(articleDate);
+
+  let firstParagraph = document.createElement('p');
+  firstParagraph.textContent = article.firstParagraph;
+  articleDiv.appendChild(firstParagraph);
+
+  let secondParagraph = document.createElement('p');
+  secondParagraph.textContent = article.secondParagraph;
+  articleDiv.appendChild(secondParagraph);
+
+  let thirdParagraph = document.createElement('p');
+  thirdParagraph.textContent = article.thirdParagraph;
+  articleDiv.appendChild(thirdParagraph);
+
+  let expandButton = document.createElement('span');
+  expandButton.classList.add('expandButton');
+  expandButton.addEventListener('click', event => {
+    event.target.classList.toggle('article-open');
+  });
+  articleDiv.appendChild(expandButton);
+
+  return articleDiv;
+}
+
+let articlesDiv = document.querySelector('.articles');
+
+data.forEach( article => {
+  let newArticle = articleMaker(article);
+
+  articlesDiv.appendChild(newArticle);
+});
+
