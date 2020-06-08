@@ -5,7 +5,7 @@
 }
 
 .menu {
-  display: none;
+  visibility: hidden;
   position: fixed;
   top: 75px;
   left: 0;
@@ -16,6 +16,10 @@
   border-left: none;
   border-bottom: none;
   z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
+
+  opacity: 0;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
 }
 
 .menu ul li{
@@ -26,5 +30,6 @@
 }
 
 .menu--open {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }

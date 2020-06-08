@@ -158,7 +158,7 @@ function articleMaker(article) {
   let expandButton = document.createElement('span');
   expandButton.classList.add('expandButton');
   expandButton.addEventListener('click', event => {
-    event.target.classList.toggle('article-open');
+    articleDiv.classList.toggle('article-open');
   });
   articleDiv.appendChild(expandButton);
 
