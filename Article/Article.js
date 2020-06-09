@@ -157,8 +157,14 @@ function articleMaker(article) {
 
   let expandButton = document.createElement('span');
   expandButton.classList.add('expandButton');
+  expandButton.textContent = 'Read more...';
   expandButton.addEventListener('click', event => {
     articleDiv.classList.toggle('article-open');
+    if(articleDiv.classList.contains('article-open')) {
+      expandButton.textContent = 'Read less...';
+    } else {
+      expandButton.textContent = 'Read more...';
+    }
   });
   articleDiv.appendChild(expandButton);
 
